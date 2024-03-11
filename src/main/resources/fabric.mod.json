@@ -3,20 +3,20 @@
 	"id": "itemstats",
 	"version": "${version}",
 	"name": "ItemStats",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Shows ore stats on pickaxes, and total mob/player kills on weapons",
 	"authors": [
-		"Me!"
+		"DerpDerpling"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/user/DerpDerpling",
+		"sources": "https://github.com/DerpDerpling/ItemStats"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/itemstats/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"derp.itemstats.ExampleMod"
+			"derp.itemstats.ItemStats"
 		]
 	},
 	"mixins": [
@@ -24,11 +24,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.19",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"minecraft": ">=1.17-",
+		"fabric-api": "*",
+		"java": ">=17"
 	}
 }
